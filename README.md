@@ -1,4 +1,4 @@
-##⭐ NYC Taxi ETL Pipeline##
+##⭐ NYC Taxi ETL Pipeline
 A production-inspired, end-to-end data engineering pipeline designed to demonstrate technical depth, architectural clarity, and real-world engineering standards.
 📌 Executive Summary
 
