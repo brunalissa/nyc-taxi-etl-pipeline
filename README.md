@@ -1,3 +1,5 @@
+##⭐ NYC Taxi ETL Pipeline##
+A production-inspired, end-to-end data engineering pipeline designed to demonstrate technical depth, architectural clarity, and real-world engineering standards.
 📌 Executive Summary
 
 This project delivers a complete batch ETL pipeline for NYC Yellow Taxi trip data, built using Python, Pandas, Parquet, and SQLite, following professional data engineering conventions.
