@@ -1,6 +1,8 @@
-##⭐ NYC Taxi ETL Pipeline
+## ⭐ NYC Taxi ETL Pipeline
 A production-inspired, end-to-end data engineering pipeline designed to demonstrate technical depth, architectural clarity, and real-world engineering standards.
-📌 Executive Summary
+
+
+## 📌 Executive Summary
 
 This project delivers a complete batch ETL pipeline for NYC Yellow Taxi trip data, built using Python, Pandas, Parquet, and SQLite, following professional data engineering conventions.
 It was designed with the mindset of real production systems: clear modularization, reproducibility, data quality validation, schema enforcement, structured outputs, and scalability in mind.
@@ -10,7 +12,7 @@ The pipeline transforms messy, raw CSV trip data into clean, analytics-ready dat
 🟨 This is not an academic exercise.
 🟨 It simulates how a junior–mid data engineer operates in a real data environment.
 
-🎯 Core Objectives
+## 🎯 Core Objectives
 
 This project was created to showcase:
 
@@ -26,7 +28,7 @@ Professional documentation and engineering communication
 
 Ability to reason about data, not only process it
 
-🧱 Architectural Overview
+## 🧱 Architectural Overview
 nyc-taxi-etl-pipeline/
 ├── data/
 │   ├── raw/               # Raw CSVs (source-of-truth)
@@ -44,7 +46,7 @@ nyc-taxi-etl-pipeline/
 Each folder has a specific, isolated responsibility.
 This separation ensures maintainability, testability, and clarity of ownership.
 
-⚙️ Technologies & Rationale
+## ⚙️ Technologies & Rationale
 Tech	Why It Was Chosen
 Python	Most widely used language in data engineering for ETL and orchestration.
 Pandas	Ideal for batch processing and rich data manipulation.
@@ -52,7 +54,9 @@ Parquet	Modern, columnar, compressed — used in lakehouses and modern analytics
 PyArrow	Industry-standard backend for Parquet.
 SQLite	Lightweight SQL engine to simulate a real warehouse load.
 VS Code + Git	Clean workflow, reproducibility, version control.
-🔄 Pipeline Flow (High-Level)
+
+
+## 🔄 Pipeline Flow (High-Level)
 1. Raw Data Intake
 
 Reads Taxi CSV files
@@ -105,7 +109,7 @@ Processed output is written as:
 
 (simulating a warehouse ingestion layer)
 
-📊 Deliverables
+## 📊 Deliverables
 
 This project produces:
 
@@ -125,7 +129,7 @@ Documenting initial data exploration and decisions.
 
 Reflecting real engineering expectations.
 
-💡 Engineering Decisions & Rationale
+## 💡 Engineering Decisions & Rationale
 Why Parquet?
 
 Because modern data platforms (Databricks, Snowflake, BigQuery, AWS Lake Formation) rely heavily on columnar formats.
@@ -144,7 +148,7 @@ Why SQLite?
 
 To simulate a data warehouse load stage without external dependencies.
 
-📂 How to Run Locally
+## 📂 How to Run Locally
 1. Create virtual environment
 python -m venv .venv
 
@@ -165,7 +169,7 @@ pip install -r requirements.txt
 4. Run the pipeline
 python src/etl/run.py
 
-🧭 Future Enhancements (Roadmap)
+## 🧭 Future Enhancements (Roadmap)
 
 To evolve this into a production-grade case:
 
@@ -183,7 +187,7 @@ To evolve this into a production-grade case:
 
  Partitioned Parquet output
 
-🏆 Key Competencies Demonstrated
+## 🏆 Key Competencies Demonstrated
 
 This project highlights capabilities essential to data engineering roles:
 
@@ -203,6 +207,6 @@ High-quality documentation and communication
 
 This is the type of project managers love to see: structured, clear, and reliable.
 
-📬 Contact
+## 📬 Contact
 
 If you’d like to discuss the architecture, design choices, or see an extended pipeline version (Airflow / Docker), feel free to reach out.
