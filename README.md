@@ -30,16 +30,27 @@ Ability to reason about data, not only process it
 
 ## 🧱 Architectural Overview
 nyc-taxi-etl-pipeline/
+
 ├── data/
+
 │   ├── raw/               # Raw CSVs (source-of-truth)
+
 │   └── processed/         # Cleaned, validated Parquet files
+
 ├── src/
+
 │   └── etl/
+
 │       ├── transform.py   # Business rules + data standardization
+
 │       ├── load.py        # Database layer (SQLite)
+
 │       └── run.py         # Pipeline orchestration
+
 ├── notebooks/             # Exploratory EDA
+
 ├── tests/                 # Data quality validations
+
 └── README.md
 
 
